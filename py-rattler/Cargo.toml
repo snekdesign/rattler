@@ -60,7 +60,7 @@ pyo3-async-runtimes = { version = "0.24.0", features = ["tokio-runtime"] }
 tokio = { version = "1.45" }
 
 reqwest = { version = "0.12.15", default-features = false }
-reqwest-middleware = "0.4.2"
+reqwest-middleware = { version = "0.4.2", package = "astral-reqwest-middleware" }
 
 thiserror = "2.0.12"
 url = "2.5.4"
